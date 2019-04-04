@@ -40,7 +40,6 @@ html, body {
   position: fixed;
   width: 100%;
   z-index: 1;
-  background-color: rgba(0, 0, 0, .9);
 }
 
 #header nav ul li {
@@ -922,5 +921,281 @@ html, body {
   content: '→';
   display: inline-block;
   margin-left: 10px;
+}
+
+#blog .btn-post {
+  display: block;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+  background-color: #000;
+  margin: 50px auto 10px auto;
+  background-color: #FF305B;
+  color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 25px;
+  text-transform: uppercase;
+  transition: .35s;
+}
+
+#blog .btn-post:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#brands {
+  padding: 40px 0;
+  margin: 50px 0;
+}
+
+#brands ul li {
+  margin: 0 50px;
+}
+
+#testimonial {
+  padding: 100px 0;
+  background: url('../testimonial/bg.png');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#testimonial i {
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-size: 4em;
+}
+
+#testimonial blockquote {
+  max-width: 700px;
+  padding: 10px;
+  margin: 30px auto;
+
+}
+
+#testimonial blockquote p {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-size: 1em;
+  line-height: 26px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+}
+
+#testimonial blockquote cite {
+  display: block;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#testimonial blockquote cite:before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 3px;
+  background-color: #fff;
+  margin-bottom: 5px;
+  margin-right: 8px;
+}
+
+#contact {
+  padding: 60px;
+}
+
+#contact .box-adress {
+  padding: 20px;
+}
+
+#contact .box-data { 
+  text-align: center;
+}
+
+#contact .box-data .icon {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-color: #000;
+  position: relative;
+}
+
+#contact .box-data .icon:before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 2px;
+  background-color: #FF305B;
+  position: absolute;
+  top: 50%;
+  left: -15px;
+}
+
+#contact .box-data .icon:after {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 2px;
+  background-color: #FF305B;
+  position: absolute;
+  top: 50%;
+  right: -15px;
+}
+
+#contact .box-data .icon i {
+  color: #fff;
+  font-size: 1.8em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#contact .box-data h3 {
+  margin: 10px auto;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3em;
+  line-height: 28px;
+  color: #181818;
+  text-transform: uppercase;
+}
+
+#contact .box-data a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 24px;
+  color: #414141;
+  transition: .35s;
+  margin-left: 5px;
+}
+
+#contact .box-data span {
+  color: #414141;
+}
+
+#contact .box-data a:hover {
+  color: #FF305B;
+}
+
+.box-email {
+  padding: 20px;
+}
+
+.box-email h3 {
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3em;
+  line-height: 28px;
+  color: #181818;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+form {
+  text-align: center;
+}
+
+form .campo {
+  width: 33%;
+  margin: 10px auto;
+  padding: 15px;
+  border: 1px solid #e3e3e3;
+}
+
+form .campo:focus, form textarea:focus {
+  outline-color: #FF305B;
+}
+
+form textarea {
+  width: 100%;
+  border: 1px solid #e3e3e3;
+  resize: none;
+  padding: 15px;
+  font-size: normal;
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 24px;
+  color: #555;
+}
+
+form input[type="submit"] {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: .9em;
+  line-height: 25px;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  background-color: #FF305B;
+  transition: .35s;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#footer {
+  padding: 80px 0;
+  background-color: #000;
+  text-align: center;
+}
+
+#footer ul {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#footer ul li + li{
+  margin-left: 5px;
+}
+
+#footer li a i  {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  background-color: #fff;
+  font-size: 1.2em;
+  color: #000;
+  line-height: 40px;
+  transition: .35s;
+}
+
+#footer li a i:hover {
+  background-color: #FF305B;
+  color: #fff;
+}
+
+#footer p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 26px;
+  color: #999999;
+  margin-top: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#footer p a {
+  color: #FF305B;
 }
 
