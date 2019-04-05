@@ -1,0 +1,163 @@
+#contact {
+  padding: 60px;
+}
+
+#contact .box-adress {
+  padding: 20px;
+}
+
+#contact .box-data { 
+  text-align: center;
+}
+
+#contact .box-data .icon {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-color: #000;
+  position: relative;
+}
+
+#contact .box-data .icon:before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 2px;
+  background-color: #FF305B;
+  position: absolute;
+  top: 50%;
+  left: -15px;
+}
+
+#contact .box-data .icon:after {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 2px;
+  background-color: #FF305B;
+  position: absolute;
+  top: 50%;
+  right: -15px;
+}
+
+#contact .box-data .icon i {
+  color: #fff;
+  font-size: 1.8em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#contact .box-data h3 {
+  margin: 10px auto;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3em;
+  line-height: 28px;
+  color: #181818;
+  text-transform: uppercase;
+}
+
+#contact .box-data a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 24px;
+  color: #414141;
+  transition: .35s;
+  margin-left: 5px;
+}
+
+#contact .box-data span {
+  color: #414141;
+}
+
+#contact .box-data a:hover {
+  color: #FF305B;
+}
+
+.box-email {
+  padding: 20px;
+}
+
+.box-email h3 {
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3em;
+  line-height: 28px;
+  color: #181818;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+form {
+  text-align: center;
+}
+
+form .campo {
+  width: 33%;
+  margin: 10px auto;
+  padding: 15px;
+  border: 1px solid #e3e3e3;
+}
+
+form .campo:focus, form textarea:focus {
+  outline-color: #FF305B;
+}
+
+form textarea {
+  width: 100%;
+  border: 1px solid #e3e3e3;
+  resize: none;
+  padding: 15px;
+  font-size: normal;
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 24px;
+  color: #555;
+}
+
+form input[type="submit"] {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: .9em;
+  line-height: 25px;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  background-color: #FF305B;
+  transition: .35s;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  #contact {
+    padding: 0;
+    margin: 70px 0;
+  }
+
+  #contact .box-adress .box-data {
+    margin-bottom: 50px;
+  }
+
+  .box-email {
+    padding: 0;
+  }
+
+  form .campo {
+    width: 100%;
+  }
+}

@@ -1,0 +1,96 @@
+#pricing-plan {
+  padding: 60px;
+}
+
+#pricing-plan ul li { padding: 5px 0; margin: 0 15px;}
+
+#pricing-plan .plan-price {
+  border: 1px solid rgba(228, 228, 228, .7);
+  transition: .5s;
+}
+
+#pricing-plan .plan-price .box-pink {
+  background-color: #FF305B;
+  padding: 50px;
+}
+
+.plan-price .box-pink .type-plan {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #fff;
+  color: #FF305B;
+  width: 150px;
+  padding: 13px 0;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 34px;
+  text-transform: uppercase;
+}
+
+.plan-price .box-pink .price {
+  font-style: normal;
+  font-size: 1.1em;
+  font-weight: 700;
+  line-height: 28px;
+  color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.box-pink .price span {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.4em;
+  line-height: 64px;
+}
+
+#pricing-plan .plan-price .itens {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid rgba(228, 228, 228, .7);
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 26px;
+  color: #555;
+}
+
+#pricing-plan .plan-price .order-now {
+  display: block;
+  background-color: #FF305B;
+  width: 150px;
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+  margin: 30px auto;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  transition: .35s ease-in-out;
+}
+
+#pricing-plan .plan-price .order-now:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#pricing-plan .plan-price:hover {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, .2);
+  transition: border-color .25s, box-shadow .25s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  #pricing-plan {
+    padding: 0;
+    margin-top: 50px;
+  }
+
+  #pricing-plan ul li { padding: 5px 0; margin: 20px 0;}
+  
+}

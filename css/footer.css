@@ -1,0 +1,49 @@
+#footer {
+  padding: 80px 0;
+  background-color: #000;
+  text-align: center;
+}
+
+#footer ul {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#footer ul li + li{
+  margin-left: 5px;
+}
+
+#footer li a i  {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+  background-color: #fff;
+  font-size: 1.2em;
+  color: #000;
+  line-height: 40px;
+  transition: .35s;
+}
+
+#footer li a i:hover {
+  background-color: #FF305B;
+  color: #fff;
+}
+
+#footer p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 26px;
+  color: #999999;
+  margin-top: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#footer p a {
+  color: #FF305B;
+}
+
+@media (max-width: 786px) {
+  
+}
