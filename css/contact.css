@@ -2,52 +2,11 @@
   padding: 60px;
 }
 
-#contact .box-adress {
-  padding: 20px;
-}
 
-#contact .box-data { 
-  text-align: center;
-}
 
-#contact .box-data .icon {
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  background-color: #000;
-  position: relative;
-}
 
-#contact .box-data .icon:before {
-  content: '';
-  display: inline-block;
-  width: 10px;
-  height: 2px;
-  background-color: #FF305B;
-  position: absolute;
-  top: 50%;
-  left: -15px;
-}
+/* BOX CONTATO */
 
-#contact .box-data .icon:after {
-  content: '';
-  display: inline-block;
-  width: 10px;
-  height: 2px;
-  background-color: #FF305B;
-  position: absolute;
-  top: 50%;
-  right: -15px;
-}
-
-#contact .box-data .icon i {
-  color: #fff;
-  font-size: 1.8em;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
 
 #contact .box-data h3 {
   margin: 10px auto;
@@ -149,6 +108,17 @@ form input[type="submit"]:hover {
     margin: 70px 0;
   }
 
+  form .campo {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  #contact {
+    padding: 0;
+    margin: 70px 0;
+  }
+ 
   #contact .box-adress .box-data {
     margin-bottom: 50px;
   }
@@ -158,6 +128,17 @@ form input[type="submit"]:hover {
   }
 
   form .campo {
-    width: 100%;
+    width: 32%;
+    margin: 10px auto;
+    padding: 15px;
+    border: 1px solid #e3e3e3;
+  }
+
+  form textarea {
+    width: 96.6%;
+  }
+
+  form input[type="submit"] {
+    width: 96.6%;
   }
 }

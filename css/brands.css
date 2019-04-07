@@ -26,3 +26,24 @@
     margin: 0 auto;
   }
 }
+
+@media (max-width: 992px) {
+  #brands ul li img {
+    display: block;
+    margin: 10px auto;
+  }
+}
+
+@media (min-width: 993px) { 
+  #brands ul li {
+    display: block;
+    width: 25%;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  #brands ul li img {
+    display: block;
+    margin: 0 auto;
+  }
+}

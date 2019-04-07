@@ -247,3 +247,13 @@
   }
 
 }
+
+@media (min-width: 768px) {
+  .box-works .work {
+    position: relative;
+    padding: 0;
+    width: 40%;
+    margin: 15px;
+  }
+}
+

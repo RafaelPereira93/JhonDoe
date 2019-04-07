@@ -97,3 +97,9 @@
   }
   
 }
+
+@media (min-width: 768px) {
+  #blog {
+    padding: 0;
+  }
+}
