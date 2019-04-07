@@ -5,7 +5,8 @@
 
 .box-team .img-team {
   position: relative;
-  margin: 20px;
+  margin: 10px auto;
+  box-sizing: border-box;
 }
 
 .box-team .img-team .description-member {

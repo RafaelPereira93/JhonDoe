@@ -86,3 +86,9 @@
 .box-price .box-itens .btn-order:hover {
   background-color: #000;
 }
+
+@media (min-width: 300px) and (max-width: 576px) {
+  #price-plan {
+    padding: 0;
+  }
+}
