@@ -281,4 +281,9 @@
   #header ul li a {
     padding: 10px;
   }
+
+  #header nav ul {
+    width: 100%;
+    right: 0;
+  }
 }
