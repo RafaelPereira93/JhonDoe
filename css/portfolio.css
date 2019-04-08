@@ -257,3 +257,9 @@
   }
 }
 
+@media (min-width: 300px) and (max-width: 768px) {
+  #portfolio {
+    padding-top: 50px;
+  }
+}
+

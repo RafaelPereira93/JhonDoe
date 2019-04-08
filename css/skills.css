@@ -104,3 +104,9 @@
     width: 90%;
   }
 }
+
+@media (min-width: 300px) and (max-width: 768px) {
+  #skills {
+    padding-top: 50px;
+  }
+}

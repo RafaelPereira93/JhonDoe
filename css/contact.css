@@ -134,3 +134,9 @@ form input[type="submit"]:hover {
     width: 96.6%;
   }
 }
+
+@media (min-width: 300px) and (max-width: 768px) {
+  #contact {
+    padding-top: 50px;
+  }
+}
