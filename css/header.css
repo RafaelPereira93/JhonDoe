@@ -209,7 +209,7 @@
     width: 300px;
     right: 0;
     height: 70vh;
-    background-color: rgba(0, 0, 0, .9);
+    background-color: #000;
     border-right: 1px solid #FF305B;
     border-left: 1px solid #FF305B;
     transform: translateX(100%);

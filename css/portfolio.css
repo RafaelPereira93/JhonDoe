@@ -67,8 +67,7 @@
 .box-works .work {
   position: relative;
   padding: 0;
-  width: 22%;
-  margin: 15px;
+  width: 20%;
 }
 
 .box-works .work:hover .box-description {

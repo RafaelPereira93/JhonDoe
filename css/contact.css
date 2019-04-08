@@ -2,7 +2,9 @@
   padding: 60px;
 }
 
-/* BOX CONTATO */
+#contact .box-data {
+  margin-bottom: 50px;
+}
 
 #contact .box-data h3 {
   margin: 10px auto;
@@ -15,23 +17,86 @@
   text-transform: uppercase;
 }
 
-#contact .box-data a {
+#contact .box-data .box-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #000;
+  text-align: center;
+  line-height: 55px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact .box-data .box-icon:before {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 3px;
+  background-color: #FF305B;
+  position: absolute;
+  top: 50%;
+  left: -20px;
+}
+
+#contact .box-data .box-icon:after {
+  content: '';
+  display: inline-block;
+  width: 15px;
+  height: 3px;
+  background-color: #FF305B;
+  position: absolute;
+  top: 50%;
+  right: -20px;
+}
+
+#contact .box-data .box-icon i {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+#contact .box-data .box-title h3 {
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 0.9em;
-  line-height: 24px;
-  color: #414141;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+#contact .box-data .box-description {
+  text-align: center;
+}
+
+#contact .box-data .box-description a {
+  text-decoration: none;
+  color: #000;
+  display: block;
   transition: .35s;
-  margin-left: 5px;
+  margin-top: 5px;
+  display: inline-block;
 }
 
-#contact .box-data span {
-  color: #414141;
-}
-
-#contact .box-data a:hover {
+#contact .box-data .box-description a:hover {
   color: #FF305B;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BOX CONTATO */
 
 .box-email {
   padding: 20px;
